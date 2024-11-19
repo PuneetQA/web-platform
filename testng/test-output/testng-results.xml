@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-24T11:45:59 IST" name="Default suite" finished-at="2024-10-24T11:46:00 IST" duration-ms="117">
+    <groups>
+    </groups>
+    <test started-at="2024-10-24T11:45:59 IST" name="Default test" finished-at="2024-10-24T11:46:00 IST" duration-ms="117">
+      <class name="testng.antotations">
+        <test-method is-config="true" signature="Login()[pri:0, instance:testng.antotations@6f46426d]" started-at="2024-10-24T11:45:59 IST" name="Login" finished-at="2024-10-24T11:45:59 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="serach()[pri:1, instance:testng.antotations@6f46426d]" started-at="2024-10-24T11:45:59 IST" name="serach" finished-at="2024-10-24T11:46:00 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serach -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testng.antotations@6f46426d]" started-at="2024-10-24T11:46:00 IST" name="logout" finished-at="2024-10-24T11:46:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:testng.antotations@6f46426d]" started-at="2024-10-24T11:46:00 IST" name="Login" finished-at="2024-10-24T11:46:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="advsearch()[pri:2, instance:testng.antotations@6f46426d]" started-at="2024-10-24T11:46:00 IST" name="advsearch" finished-at="2024-10-24T11:46:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advsearch -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testng.antotations@6f46426d]" started-at="2024-10-24T11:46:00 IST" name="logout" finished-at="2024-10-24T11:46:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testng.antotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
