@@ -3,10 +3,14 @@
   <groupId>sidekick</groupId>
   <artifactId>sidekick</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <build>
-	 
   <dependencies>
-	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+  	<dependency>
+  		<groupId>Basic</groupId>
+  		<artifactId>testing</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	
+  	 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -19,10 +23,9 @@
     <version>7.4.0</version>
     <scope>test</scope>
 </dependency>
-
   </dependencies>
-
-    <sourceDirectory>src</sourceDirectory>
+  <build>
+	  <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -33,11 +36,4 @@
       </plugin>
     </plugins>
   </build>
-  <dependencies>
-  	<dependency>
-  		<groupId>Basic</groupId>
-  		<artifactId>testing</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  </dependencies>
 </project>
